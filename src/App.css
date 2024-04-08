@@ -1,0 +1,124 @@
+body{
+  font-family: sans-serif;
+}
+
+.stepper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.step{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-number{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(209, 209, 209);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+z-index: 2;
+}
+.step-name{
+  font-size: 14px;
+}
+
+.active .step-number{
+  background-color: rgb(21, 77, 160);
+  color: #fff;
+}
+
+.complete .step-number{
+  background-color: rgb(13, 146, 57);
+  color: #fff;
+}
+
+.progress-bar{
+  position: absolute;
+  top: 25%;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.progress{
+  height: 100%;
+  background-color: rgb(13, 146, 57);
+
+  transition: 0.2s ease;
+}
+
+.quetion{
+  margin: 20px auto;
+  width: 60%;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+.question h2{
+  margin-bottom: 10px;
+}
+
+.options{
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.options > li >button {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results{
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+    margin: 20px auto;
+    text-align: center; 
+
+}
+
+.results ul{
+  list-style: none;
+  padding: 0;
+}
+
+.results span{
+  color: red;
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.results li {
+  margin-bottom: 10px;
+}
+
+.results li[data-correct="true"] {
+ color: green;
+} 
+
+.results li[data-correct="false"] {
+  color: red;
+ } 
