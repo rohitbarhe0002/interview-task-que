@@ -15,7 +15,8 @@ function Result({userAnswers,quetions,resetQuiz}) {
                 {userAnswers[index] && <span> - Answer: {userAnswers[index]}</span>}
             </li>
         ))}
-    </ul>
+    </ul>Hello any updates for my application i waiting for your reply hope will get feedback soon 
+Thanks
 </div>
 
   )
