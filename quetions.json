@@ -1,103 +1,103 @@
 [
     {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"What is ReactJS?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":true
+        "text":"Open-source JavaScript back-end library","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"JavaScript front-end library to create a database","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"Free and open-source JavaScript front-end library","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"None of the mentioned","isCorrect":true
     }
 ]
 },
 {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"Which of the following acts as the input of a class-based component?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":true
+        "text":"Class","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"Props","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"Factory","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":true
+        "text":"None of the mentioned","isCorrect":true
     }
 ]
 },
 {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"React.js is written in which of the following language?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":true
+        "text":"c","isCorrect":true
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"c++","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"Javascript","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"Java","isCorrect":false
     }
 ]
 },
 {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"How many elements can a valid react component return?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":false
+        "text":"React doesn’t return element","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"1 Element","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"More than 1 element","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"None of the mentioned","isCorrect":false
     }
 ]
 },
 {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"In which of the following directory React Components are saved?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":false
+        "text":" Inside js/components/","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"Inside components/js/","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"Inside vendor/js/components/","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"Inside vendor/components/","isCorrect":false
     }
 ]
 },
 {
-    "quetion":"what is the latget planet in our solar system",
+    "quetion":"Which of the following is method is not a part of ReactDOM?",
     "answerOptions":[
         {
-        "text":"Saturn","isCorrect":false
+        "text":"ReactDOM.hydrate()","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"ReactDOM.destroy()","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"ReactDOM.createPortal()","isCorrect":false
     },
     {
-        "text":"Saturn","isCorrect":false
+        "text":"All of the mentioned","isCorrect":false
     }
 ]
 }
